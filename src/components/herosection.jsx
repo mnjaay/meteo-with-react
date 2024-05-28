@@ -35,7 +35,12 @@ function HeroSection() {
             <h1 class="text-white text-center xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl xs:text-xl font-semibold bg-gray-800 p-2 bg-opacity-40 rounded-sm">METEO DU MONDE</h1>
         </div>
         <div class="w-full mx-auto">
-        <div class="max-w-md mx-auto m-5">
+       
+        </div>
+    </div>
+</section>
+<div className="m-5">
+<div class="max-w-md mx-auto m-5">
                         <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Rechercher</label>
                         <div class="relative">
                             <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
@@ -53,10 +58,6 @@ function HeroSection() {
                             <button  onClick={ChangeLocalite} class="text-white absolute end-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Rechercher</button>
                         </div>
                     </div>
-        </div>
-    </div>
-</section>
-<div className="m-5">
 <Card 
         Ville={posts && posts.name} 
         temperature={posts && posts.main && posts.main.temp} 
