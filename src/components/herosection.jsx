@@ -62,7 +62,7 @@ function HeroSection() {
         temperature={posts && posts.main && posts.main.temp} 
         temp_min={posts && posts.main && posts.main.temp_min}
         temp_max={posts && posts.main && posts.main.temp_max} 
-        humidity={posts && posts.main && posts.main.humididty}
+        humidity={posts && posts.main && posts.main.humidity}
         speed={posts && posts.main && posts.wind.speed}/>                
 
 </div>
